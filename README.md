@@ -14,19 +14,19 @@
 		To get a list of actions to run use the below command
 		(New-Object -ComObject CPApplet.CPAppletmgr).GetClientActions() | select Name,DisplayNameResID
 		
-		Name																          DisplayNameResID
-		-----------------------------------						----------------
-		Hardware Inventory Collection Cycle			    	10001
-		Discovery Data Collection Cycle					    	10004
-		Software Inventory Collection Cycle			   		10005
-		Standard File Collection Cycle					  		10006
-		Request & Evaluate User Policy					    	10007
-		Request & Evaluate Machine Policy			    		10008
-		Software Metering Usage Report Cycle	    		10009
-		MSI Product Source Update Cycle				      	10010
+		Name					        DisplayNameResID
+		-----------------------------------		----------------
+		Hardware Inventory Collection Cycle		10001
+		Discovery Data Collection Cycle			10004
+		Software Inventory Collection Cycle		10005
+		Standard File Collection Cycle			10006
+		Request & Evaluate User Policy			10007
+		Request & Evaluate Machine Policy		10008
+		Software Metering Usage Report Cycle	    	10009
+		MSI Product Source Update Cycle			10010
 		Software Updates Assignments Evaluation Cycle	10011
-		Updates Source Scan Cycle							      	10013
-		Application Global Evaluation Task						10014
+		Updates Source Scan Cycle			10013
+		Application Global Evaluation Task		10014
 		
 		I highly recommend converting the .ps1 file to an exe.
 		I have had success converting it using the PSGallery module "ps2exe" but there are other methods available.
@@ -62,11 +62,11 @@
 		Will open a PowerShell command window and will run the client actions as it finds them. If the action is not available, then the action is skipped.
 		By default it will run the below actions
 		
-		Name																DisplayNameResID
-		-----------------------------------							----------------
-		Discovery Data Collection Cycle							10004
-		Request & Evaluate Machine Policy						10008
+		Name						DisplayNameResID
+		-----------------------------------		----------------
+		Discovery Data Collection Cycle			10004
+		Request & Evaluate Machine Policy		10008
 		Software Updates Assignments Evaluation Cycle	10011
-		Updates Source Scan Cycle								10013
-		Application Global Evaluation Task						10014
+		Updates Source Scan Cycle			10013
+		Application Global Evaluation Task		10014
 ```
